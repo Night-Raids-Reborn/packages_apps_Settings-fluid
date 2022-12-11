@@ -12206,6 +12206,13 @@
     <!-- Summary for preference when Bedtime mode is on [CHAR LIMIT=NONE] -->
     <string name="aware_summary_when_bedtime_on">Unavailable because bedtime mode is on</string>
 
+    <string name="active_sim_tittle">Active SIM cards</string>
+    <string name="active_sim_summary">Select SIM cards to be included</string>
+    <string name="active_sim_both">Both SIM cards</string>
+    <string name="active_sim_one">Only the first</string>
+    <string name="active_sim_two">Only the second</string>
+    <string name="active_sim_none">Both disabled</string>
+
     <!-- Bluetooth message permission alert for notification content [CHAR LIMIT=none] -->
     <string name="bluetooth_message_access_notification_content">Untrusted device wants to access your messages. Tap for details.</string>
     <!-- Bluetooth message permission alert for dialog title [CHAR LIMIT=none] -->

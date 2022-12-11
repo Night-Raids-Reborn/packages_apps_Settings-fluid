@@ -118,6 +118,14 @@
         android:positiveButtonText="@string/save"
         android:negativeButtonText="@android:string/cancel" />
 
+    <ListPreference
+        android:key="active_sim_settings"
+        android:title="@string/active_sim_tittle"
+        android:dialogTitle="@string/active_sim_summary"
+        android:order="22"
+        android:entries="@array/active_sim_entries"
+        android:entryValues="@array/active_sim_values" />
+
     <Preference
         android:fragment="com.android.settings.network.AdaptiveConnectivitySettings"
         android:key="adaptive_connectivity"

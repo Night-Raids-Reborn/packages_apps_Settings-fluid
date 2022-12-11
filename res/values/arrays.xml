@@ -1522,4 +1522,18 @@
         <item>@string/rtt_settings_always_visible</item>
     </string-array>
 
+    <string-array name="active_sim_entries" translatable="false">
+        <item>@string/active_sim_both</item>
+        <item>@string/active_sim_one</item>
+        <item>@string/active_sim_two</item>
+        <item>@string/active_sim_none</item>
+    </string-array>
+
+    <string-array name="active_sim_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>

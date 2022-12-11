@@ -180,6 +180,12 @@
             </intent-filter>
         </receiver>
 
+        <receiver android:name=".SettingsOnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
         <activity android:name=".SubSettings"/>
 
         <activity android:name=".Settings$CreateShortcutActivity"
